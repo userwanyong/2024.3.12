@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/2024
+    username: root
+    password: 252748377
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命名和下划线命名的自动转换
