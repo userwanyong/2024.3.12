@@ -19,4 +19,5 @@ public class FileUploadController {
         file.transferTo(new File("E:\\java project\\2024_2_6_sp\\file\\" + filename));
         return Result.success("https://"+filename);
     }
+
 }
